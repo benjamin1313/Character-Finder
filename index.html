@@ -10,17 +10,23 @@
     <div id="top">
       <div id="box">
         <textarea id="nameBox" placeholder="Minecraft username"></textarea>
-        <button onclick="getHead()">find head</button>
+        <button onclick="getHead()">Find</button>
       </div>
     </div>
-    <p><img id="head" src="https://minotar.net/helm/steve/100.png"></p>
+    <p><img id="imgarea" src="https://minotar.net/helm/steve/100.png"></p>
     <br>
     <div id="links">
-      <p>Links for use on fora:</p>
-      <p>Head:</p>
-      <textarea readonly id="face">https://minotar.net/helm/steve/100.png</textarea>
+      <p>get a link:</p>
+      <textarea readonly id="linkarea">https://minotar.net/helm/steve/100.png</textarea>
+      <br>
+      <button onclick="getHead()">Head</button>
+      <button onclick="getTop()">Top</button>
+      <button onclick="getBody()">Body</button>
+      <button onclick="getSkin()">Skin</button>
+      <!--
       <p>Full skin:</p>
       <textarea readonly id=body>https://minotar.net/body/steve/100.png</textarea>
+      -->
     </div>
   </body>
 </html>
