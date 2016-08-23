@@ -1,4 +1,4 @@
-var name = "steave";
+var name = "steve";
 function getHead(){
     name = document.getElementById('nameBox').value;
     document.getElementById('imgarea').src="https://minotar.net/helm/"+ name +"/100.png";
